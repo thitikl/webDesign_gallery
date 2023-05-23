@@ -1,0 +1,122 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+}
+/* Styling of all images */
+img{
+    object-fit: cover;
+    object-position: 50% 50%;
+}
+
+/* Styling of the first container */
+div#container1{
+    width: 100%;
+    height: 100vh;
+}
+
+div#container1 img{
+    width: 100%;
+    height: 100vh;
+    object-position: 50% 0%;
+}
+
+div#container1 h1{
+    font-size: 50px;
+    font-weight: 100;
+    position: absolute;
+    top: 100px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/* Styling of text and image container */
+div.textandimg{
+    height: 600px;
+    padding: 20px;
+}
+div.textandimg div.text-container{
+    width: 40%;
+    height: 100%;
+    display: inline;
+}
+div.textandimg div.img-container{
+    width: 50%;
+    display: inline;
+}
+div.textandimg div.img-container img{
+    width: 29%;
+    height: 49%;
+    transition: transform .5s;
+    border-radius: 5px;
+}
+div.textandimg div.img-container img:hover{
+    transform: scale(1.05);
+    box-shadow: 0 0 5px 1px;
+    transition: transform .5s;
+}
+div.textandimg h2, div.textandimg p{
+    width: 70%;
+}
+
+/* Styling of the second and fourth container */
+div#container2 div.text-container, div#container4 div.text-container{
+    float: left;
+}
+div#container2 h2, div#container2 p, div#container4 h2, div#container4 p{
+    position: relative;
+    top: 35%;
+    left: 30px;
+}
+
+/* Styling of the third container */
+div#container3{
+    padding-right: 0;
+}
+div#container3 div.text-container{
+    float: right;
+}
+div#container3 h2, div#container3 p{
+    color: white;
+    position: relative;
+    top: 35%;
+    margin-left: 50px;
+}
+div#container3 div.img-container img{
+    height: 100%;
+}
+
+/* Styling of the fifth container */
+div#container5{
+    background-color: black;
+    color: white;
+    padding: 20px;
+    height: 300px;
+}
+div#container5 div{
+    position: relative;
+    bottom: -60px;
+}
+div#container5 p{
+    font-size: 30px;
+    font-style: italic;
+    text-align: center;
+    font-weight: 100;
+}
+div#container5 img{
+    width: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+/* Styling of footer */
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding-bottom: 10px;
+}
+footer p{
+    font-size: small;
+    margin: 0;
+}
