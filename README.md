@@ -1,0 +1,2 @@
+## Web design for gallery
+This website is an assignment for web design course. It is a gallery that contain photos I took from all of my journey. Hopefully, I have the time to revisit the project and update it with the recent photos.
